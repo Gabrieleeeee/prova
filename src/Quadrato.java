@@ -1,3 +1,6 @@
+//modifica effettuata da gitHub
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -21,18 +24,18 @@ public class Quadrato extends JFrame implements ActionListener{
 		c1.add(p1);
 		
 		t1= new JTextField(5);
-		l1= new JLabel("L' area Ë: ");
+		l1= new JLabel("L' area √®: ");
 		l2=new JLabel("?");
 		
 		p1.add(t1);
 		p1.add(l1);
 		p1.add(l2);
 		p1.add(b1);
-		b1.addActionListener(this); //ascolta il pulsante=controlla se Ë stato premuto
+		b1.addActionListener(this); //ascolta il pulsante=controlla se √® stato premuto
 		
 		setLocation(200,300); //posizione dell? angolo in alto a sinistra
 		setSize(200,300);//dimensione della finestra
-		setVisible(true); //visibilit‡ della finestra
+		setVisible(true); //visibilit√† della finestra
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //ferma il programma
 		
 	}//fine costruttore
